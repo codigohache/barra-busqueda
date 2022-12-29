@@ -1,0 +1,133 @@
+
+
+
+
+
+.material-icons {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+
+  body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgb(29, 27, 27);
+}
+
+
+
+
+
+.search-bar{
+    border: solid 1px #ccc;
+    border-radius: 30px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 100px auto;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.search-bar:focus-within {
+    border: solid 5px rgb(146, 209, 238);
+    box-shadow: 0 2px 5px rgba(88, 128, 204, 0.2);
+}
+
+.search-bar input[type="text"]{
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 30px;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+    font-size: 18px ;
+    color: rgb(4, 4, 212);
+}
+
+
+.search-bar .actions {
+    display: flex;
+    gap: 5px;
+
+}
+
+
+.search-bar .acctions button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #999;
+
+transition: color 0.3s ease-in-out;
+
+
+}
+
+
+
+.search-bar .acctions button:hover{
+    color: aquamarine;
+
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    
+
+
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px 2px;
+    margin: 100px auto;
+   
+    border: solid 3px rgb(146, 209, 238);
+    border-radius: 50%;
+  
+
+
+ 
+
+}
+.search-bar{
+    border: solid 1px #ccc;
+    border-radius: 30px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 100px auto;
+
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
